@@ -1,3 +1,120 @@
-*{
+*{}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.dark-2{
+    color: #474747;
+}
+.btn-main{
+    background-color: #FD6E0A;
+    font-size: 20;
+    color: white;
+    padding: 18px 35px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Header */
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+/* Nav css */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+.navh3title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.navh3span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul  li{
+    list-style: none;
+    margin: 0 25px;
     
 }
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* Banner css */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 200px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    position: relative;
+    height: 560px;
+    
+}
+.ban-contant{
+    max-width: 480px;
+    margin-left: 150px;
+}
+.ban-img img{
+    width: 480px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* About Me */
+.aboutme{
+    height: 350px;
+    width: 750px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    padding: 50px 130px;
+    margin-bottom: 100px;
+    margin-top: -80px;
+}
+.topabout{
+    text-align: center;
+}
+.topabout p{
+    color: #757575;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.downabout{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.item-1{
+    text-align: center;
+}
+.item-1 p{
+    color: #757575;
+}
+.item-1 h3{
+    margin-top: -10px;
+}
+
